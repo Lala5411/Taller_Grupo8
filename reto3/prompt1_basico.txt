@@ -1,0 +1,17 @@
+```text
+Convierte el siguiente requisito en una Historia de Usuario estructurada. Utiliza la técnica Few-Shot siguiendo los 
+ejemplos presentados.
+
+Ejemplo 1:
+Requisito: Que el estudiante pueda cancelar su cita desde la app.
+Historia: Como estudiante de la FET, quiero cancelar mi cita agendada desde la aplicación móvil, para liberar el cupo
+cuando no pueda asistir a tiempo.
+
+Ejemplo 2:
+Requisito: Que el sistema bloquee a estudiantes con 2 inasistencias.
+Historia: Como coordinador de Bienestar, quiero que el sistema bloquee automáticamente la opción de reserva a estudiantes
+con 2 inasistencias, 
+para garantizar un uso justo de las instalaciones.
+
+Requisito a convertir:
+"Que el estudiante reciba un recordatorio el día anterior a su cita."

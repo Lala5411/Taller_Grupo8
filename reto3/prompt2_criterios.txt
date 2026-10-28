@@ -1,0 +1,6 @@
+Toma la siguiente historia de usuario y genera entre 3 y 5 criterios de aceptación en formato Dado / Cuando / Entonces.
+Debes integrar obligatoriamente las reglas de negocio de BienestarFET (atención L-V de 8:00 a 17:00, reservas con 24h de anticipación y cancelación hasta 4h antes).
+
+<historia>
+Como estudiante que tiene una cita agendada en BienestarFET, quiero recibir una notificación de recordatorio el día anterior a mi cita, para confirmar mi asistencia o cancelarla con al menos 4 horas de anticipación si se me presenta un inconveniente.
+</historia>

@@ -1,0 +1,12 @@
+Evalúa la siguiente función Python del sistema BienestarFET paso a paso con los datos de prueba concretos: 
+(Estudiante con 2 inasistencias registradas, Solicitud de reserva con 18 horas de anticipación).
+
+Función a evaluar:
+
+```python
+def puede_agendar(est, horas_anticipacion, inasistencias):
+    if inasistencias > 2:
+        return False
+    if horas_anticipacion < 12:
+        return False
+    return True

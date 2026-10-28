@@ -1,0 +1,13 @@
+Con base en los criterios de aceptación provistos en la sección <criterios>, genera una tabla en formato Markdown con los casos de prueba del módulo.
+
+La tabla debe tener exactamente las siguientes columnas:
+| Caso | Entrada | Resultado esperado | Criterio que cubre |
+
+INSTRUCCIÓN DE AUTO-VERIFICACIÓN OBLIGATORIA:
+Antes de entregar la respuesta, revisa que absolutamente cada criterio de aceptación tenga al menos un caso de prueba asociado. Si notas que falta un criterio por cubrir, agrégalo e indica explícitamente al final: "Caso agregado en auto-verificación: [Nombre del Caso]".
+
+<criterios>
+Criterio 1: Dado que un estudiante tiene una cita confirmada para el día de mañana, Cuando el sistema ejecuta el proceso diario de notificación, Entonces se le envía un recordatorio indicando la hora y el servicio.
+Criterio 2: Dado que un estudiante recibe el recordatorio, Cuando decide cancelar la cita con más de 4 horas de anticipación, Entonces el sistema libera el cupo y cancela la cita sin generar inasistencia.
+Criterio 3: Dado que un estudiante recibe el recordatorio pero no asiste a la cita sin haberla cancelado a tiempo, Entonces se le contabiliza la inasistencia.
+</criterios>

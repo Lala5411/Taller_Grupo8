@@ -1,0 +1,15 @@
+[Qué quiero]: Desarrolla una función en Python llamada `puede_agendar_cita` que valide si un estudiante cumple los requisitos para agendar una cita en el sistema BienestarFET.
+
+[Para quién]: Para el backend del sistema de Bienestar Universitario de la FET.
+
+[Contexto]: El sistema gestiona citas de atención, deportes y orientación universitaria, y debe hacer cumplir estrictamente las políticas de uso para evitar sobrecupos e inasistencias.
+
+<reglas>
+1. Atención de lunes a viernes, de 8:00 a 17:00, en bloques de 30 minutos.
+2. Máximo una cita activa por servicio para cada estudiante.
+3. Las citas se agendan con al menos 24 horas de anticipación.
+4. Se pueden cancelar hasta 4 horas antes.
+5. Dos inasistencias en el semestre bloquean el agendamiento por 30 días.
+</reglas>
+
+[Formato de salida]: Retorna únicamente una función Python con su docstring explícito, type hints y una tupla de retorno `(bool, str)` indicando `(es_valido, motivo)`.
